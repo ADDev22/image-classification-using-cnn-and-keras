@@ -8,9 +8,17 @@ Ses prédictions sont très fiables dans la majorité des cas et elles sont plus
     ## dog => 100 %
     ## lion ==> 100%
     ## chettath =>100%
-    ## cat 
+    ## cat => 97.
 ###   accuracy de notre modele 
-Les premiers résultats intéressants viennent souvent d’une analyse d’erreurs qui consiste à comprendre pourquoi le modèle s’est trompé sur tel ou tel exemple avec un haut score de confiance.
-Une partie cruciale, lorsque l’on s’adonne à la science des données, est de bien net-toyer celles-ci. C’est pourquoi nous avons pris soin de mettre en place une procédurede nettoyage rigoureuse et complète.
+Une partie cruciale, lorsque l’on s’adonne à la science des données, est de bien nettoyer celles-ci. C’est pourquoi nous avons pris soin de mettre en place une procédurede nettoyage rigoureuse et complète.
+Ensuite pour l'entrainement du modele nous nous avons joué avec differents valeurs de l'epochs pour avoir un resultat correcte.
+#### Le score final du modele est : 93,44
+
+# Conclusion
+Dans le cadre de ce projet, nous avons remarqué ces que systemes sont sensibles à la plus petite variation de pixels alors que l’œil humain ne voit que très peu de différences avec l’image originale, la machine, elle, est affectée.
+
+Cette capacité d’abstraction de l'etre humain lui permet d’ignorer de petites perturbations, car celles-ci ne changent pas le concept présent sur une image. La machine, elle, n’est pas capable d’abstraction. Elle ne développe pas un concept, mais accumule plutôt une suite logique d’indices. C’est ce qui a entraîne les erreurs de classification dans nos tests. 
+
+
 
 
